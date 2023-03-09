@@ -7,7 +7,7 @@ const productController = require('./controllers/productController')
 const uploadController = require('./controllers/uploadController')
 const app = express()
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://kartza-app.vercel.app"
 }))
 
 const bodyParser = require('body-parser')
